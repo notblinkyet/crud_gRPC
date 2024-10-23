@@ -1,0 +1,11 @@
+env: "local" # local, dev, prod
+
+address: "localhost:8080"
+
+database:
+  type: "postgres" # "mysql", "mongodb"
+  host: "localhost"
+  port: 5432
+  username: "postgres"
+  password: "12345pass"
+  dbname: "crud_project"
